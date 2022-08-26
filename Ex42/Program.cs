@@ -42,7 +42,7 @@ if (res >= 0)
 {
     Console.WriteLine($"Число {res} в двоичной системе: {String.Join("", arr)}");
 }
-if (res<0)
+if (res < 0)
 {
     Console.Write(arr[0]);
     for (int l = 1; l < count; l++)
